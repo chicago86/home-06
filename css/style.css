@@ -1,0 +1,134 @@
+@font-face {
+  font-family: "Segoe UI";
+  src: url("../fonts/SegoeUI.woff2") format("woff2"),
+    url("../fonts/SegoeUI.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font: 400 30px/1.4 "Segoe UI", sans-serif;
+  color: #464b4f;
+  background:#f1f1f1;
+  
+}
+
+/* Layout */
+.ba-container {
+  padding-left: 20px;
+  padding-right: 20px;
+  max-width: 1700px;
+}
+
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button {
+  transition: color 0.3s ease-in, border-color 0.3s ease-in,
+    background-color 0.3s ease-in, opacity 0.3s ease-in;
+}
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button {
+  display: inline-block;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.ba-button:hover {
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+  transition: color 0.3s ease-in, border-color 0.3s ease-in,
+    background-color 0.3s ease-in, opacity 0.3s ease-in;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+}
+
+.ba-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  background-image: url(../img/bg01.png);
+}
+.ba-logo {
+  padding-top: 80px;
+  width: 134px;
+}
+.ba-header > .ba-item-2 {
+  padding-top: 185px;
+  font-weight: 700;
+  color: #ffffff;
+  line-height: 30px;
+  font-size: 80px;
+  text-transform: uppercase;
+}
+.ba-heder-text {
+  padding-top: 64px;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  width: 413px;
+  text-align: center;
+}
+.ba-button {
+  padding-top: 200px;
+  padding-bottom: 40px;
+}
+aside {
+	background: url(../img/bg02.png);
+	background-position-y: 150%;
+	background-position-x: 100%;
+	border: 1px solid #23232e;
+}
+.ba-section-1 {
+  padding-top: 180px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ba-text {
+  text-align: center;
+  width: 851px;
+}
+.ba-item-2 {
+  font-size: 80px;
+  font-weight: 700;
+  line-height: 36px;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 120px;
+}
+li {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  padding-left: -64px;
+  padding-right: 64px;
+  
+}
+.ba-tem-text {
+  text-align: justify;
+}
+.ba-row{
+	padding-top: 100px;
+	padding-bottom: 50px;
+}
